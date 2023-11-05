@@ -1,0 +1,15 @@
+body {
+    margin: 30;
+    font-family: 'Arial';
+    background-color: bisque;
+    text-align: center;
+}
+
+h1 {
+    background-color: burlywood;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+}
