@@ -86,9 +86,9 @@ const useDataApi = (initialUrl, initialData) => {
         {isLoading ? (
           <div>Loading ...</div>
         ) : (
-          <ul className="group-list">
+          <ul className="list-group">
             {data.map(item => (
-              <li className="group-list-item" key={item.objectID}>
+              <li className="list-group-item list-group-item-secondary" key={item.objectID}>
                 <a href={item.website_url}>{item.name}</a> in {item.city}, {item.state}
               </li>
             ))}
